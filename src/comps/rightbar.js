@@ -10,7 +10,7 @@ const Rightbar = () => {
 
     return (
         <Box flex={2} p={2} sx={{ background: "", display: { xs: "none", sm: "block" } }}>
-            <Box position="fixed" sx={{ margin: "20px" }}>
+            <Box  sx={{ margin: "20px" }}>
                 <Typography variant="h6" fontWeight="100">
                     ONLINE FRIENDS
                 </Typography>
@@ -33,17 +33,19 @@ const Rightbar = () => {
                 </Typography>
 
                 <ImageList cols={3} rowHeight={120}>
-                    <ImageListItem >
-                        <img
-                            src="asseting/llama.jpg"
-                            loading="lazy"
-                        />
-                    </ImageListItem><ImageListItem >
+                <ImageListItem >
                         <img
                             src="asseting/llama.jpg"
                             loading="lazy"
                         />
                     </ImageListItem>
+                    <ImageListItem >
+                        <img
+                            src="asseting/llama.jpg"
+                            loading="lazy"
+                        />
+                    </ImageListItem>
+                    
                 </ImageList>
 
                 <Typography variant="h6" fontWeight="100">
@@ -56,7 +58,7 @@ const Rightbar = () => {
                         </ListItemAvatar>
                         <ListItemText
                             primary="Brunch this weekend?"
-                            secondary={
+                                secondary={
                                 <Typography
                                     sx={{ display: 'inline' }}
                                     component="span"

@@ -34,7 +34,6 @@ const Modaling = (props) => {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
-
             >
                 <Box sx={style} borderRadius={4} >
                     <Typography id="modal-modal-description" variant="h6" color="gray" textAlign="center" component="h2" sx={{ m: 3, marginTop: 0 }}>
@@ -42,7 +41,7 @@ const Modaling = (props) => {
                     </Typography>
                     <Box sx={{ display: 'flex', alignItems: "center", gap: "10px", marginBottom: "20px" }}>
                         <Avatar alt="Travis Howard" src="asseting/asdf.png" />
-                        <Typography>Janaana</Typography>
+                        <Typography>Sir/Maam</Typography>
                     </Box>
                     <TextField
                         id="standard-multiline-static"

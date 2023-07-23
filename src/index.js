@@ -9,13 +9,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const darkTheming = createTheme({
   palette: {
-    mode: 'dark'
+    mode: 'light'
   }
 })
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={darkTheming}>
-      <App bgColor={"background.default"} color={"text.primary"}/>
+      <App />
     </ThemeProvider>
   </React.StrictMode>
 );
